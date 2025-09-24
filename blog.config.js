@@ -23,7 +23,7 @@ const BLOG = {
     keywords: ['MSFXP', 'MSFXP BLOG', 'MSFXP BLOG 个人笔记'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
-  notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
+  notionPageId: process.env.NOTION_PAGE_ID || '443f4dd108044ae987e4bb0ca4489478', // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   analytics: {
     provider: 'ga', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
